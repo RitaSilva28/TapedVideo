@@ -1,0 +1,119 @@
+body{
+    background-color: black;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    color:white;
+    margin:0;
+    padding:0;
+   
+
+
+}
+
+h3{
+    color:black;
+    font-size: 40px;
+    
+ 
+}
+
+.copyright{
+    position: relative;
+    top: 20px;
+    margin:0;
+    padding:0;
+}
+
+.fab{
+    margin:0 20px;
+    color: #A5292A;
+}
+.social-icons{
+    position: relative;
+    top:25px;
+  
+}
+
+
+
+.navbar-button{
+    color: #A5292A;
+}
+.nav-link{
+    font-size: 25px;
+     margin: 0 20px;
+     color: #A5292A;
+     text-transform: uppercase;
+}
+
+.nav-link:hover{
+    text-decoration: underline;
+}
+
+/* .about:active{
+    text-decoration: underline;
+
+} */
+
+.active{
+    text-decoration: underline;
+}
+
+
+.tapedlogo{
+    width: 70px;
+}
+
+.search-button{
+background-color: brown;
+    color:white;
+    font-size: 25px;
+}
+
+.form-control{
+    font-size: 25px;
+}
+
+
+footer{
+
+    height: 150px ;
+    background-color: #F8F9FA;
+    position: relative;
+    top:1000px;
+  
+
+}
+
+
+@keyframes fadedAnimation {
+
+    0% {opacity: 0;}
+    100% { opacity:1; }
+  }
+
+  .animation-faded {
+      animation-name: fadedAnimation;
+      animation-duration:  2s; 
+      animation-iteration-count: 1;
+      animation-delay: 0.7s;
+      animation-fill-mode: forwards;
+   
+  }
+
+
+
+  @keyframes fadedAnimation2 {
+
+    0% {opacity: 0;}
+    100% { opacity:1; }
+  }
+
+  .animation-faded2 {
+      animation-name: fadedAnimation2;
+      animation-duration:  2.5s; 
+      animation-iteration-count: 1;
+      animation-delay: 0;
+      animation-fill-mode: forwards;
+   
+  }
