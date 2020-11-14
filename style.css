@@ -270,7 +270,7 @@ h1:hover {
         }
 
 
-      /* -------------------FOURTH MEDIA QUERY MAX 600 PX ------------------------*/
+      /* -------------------FOURTH MEDIA QUERY  ------------------------*/
 
 
       @media only screen and (min-width:1001px) and (max-width: 1200px) {
@@ -297,7 +297,7 @@ h1:hover {
             position: fixed;
             top:0px;
             right:0px;
-            left:-900px;
+            left:-700px;
             z-index: 1;
             word-spacing: 0px;
             letter-spacing: 0px;
@@ -313,7 +313,7 @@ h1:hover {
             position: fixed;
             top:0px;
             left:0;
-            right:-900px;
+            right:-700px;
             z-index: 1;
             word-spacing: 0px;
             letter-spacing: 0px;
@@ -353,7 +353,7 @@ h1:hover {
                 position: fixed;
                 top:0px;
                 right:0px;
-                left:-700px;
+                left:-900px;
                 z-index: 1;
                 word-spacing: 0px;
                 letter-spacing: 0px;
@@ -369,7 +369,7 @@ h1:hover {
                 position: fixed;
                 top:0px;
                 left:0;
-                right:-700px;
+                right:-900px;
                 z-index: 1;
                 word-spacing: 0px;
                 letter-spacing: 0px;
