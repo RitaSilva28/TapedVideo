@@ -176,9 +176,12 @@ footer{
 
    @media only screen and (max-width: 600px) {
 
+    .tapedlogo{
+        width: 50px;
+    }
 
     .container-1{
-        top:49px;
+        top:32px;
         width:100%; 
      
     }
@@ -224,8 +227,13 @@ footer{
 
     @media only screen and (min-width: 601px) and (max-width:800px) {
 
+
+        .tapedlogo{
+            width: 60px;
+        }
+
         .container-1{
-            top:35px;
+            top:28px;
             width:100%; 
          
         }
@@ -277,7 +285,7 @@ footer{
     
         .container-2{
          
-            top:580px;
+            top:500px;
         }
     
         .container-2 h1 {
