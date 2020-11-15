@@ -5,9 +5,6 @@ body{
     color:white;
     margin:0;
     padding:0;
-   
-
-
 }
 
 main{
@@ -57,11 +54,6 @@ h3{
 .nav-link:hover{
     text-decoration: underline;
 }
-
-/* .about:active{
-    text-decoration: underline;
-
-} */
 
 .active{
     text-decoration: underline;
@@ -135,6 +127,7 @@ text-transform: uppercase;
 font-size: 50px;
 margin-bottom: 30px;
 
+
 }
 
 .container-2 p {
@@ -179,24 +172,25 @@ footer{
   }
 
 
-   /* ------------------- SECOND MEDIA QUERY MAX 600 PX ------------------------*/
+   /* ------------------- FIRST MEDIA QUERY MAX 600 PX ------------------------*/
 
    @media only screen and (max-width: 600px) {
 
 
     .container-1{
-        top:63px;
+        top:49px;
         width:100%; 
      
     }
 
     .container-2{
         background-color: black;
-        width:80%;
-        margin: auto;
-        height:700px;
-        position: relative;
-        top:230px;
+        position:absolute;
+        width: 80%;
+        top:360px;
+        left:0;
+        right:0;
+
     }
 
     .container-2 h1 {
@@ -224,3 +218,289 @@ footer{
      }
 
    }
+
+
+    /* ------------------- SECOND MEDIA QUERY  ------------------------*/
+
+    @media only screen and (min-width: 601px) and (max-width:800px) {
+
+        .container-1{
+            top:35px;
+            width:100%; 
+         
+        }
+    
+        .container-2{
+            background-color: black;
+            width:80%;
+            height:700px;
+            position: absolute;
+            left:0;
+            right:0;
+            top:470px;
+        }
+    
+        .container-2 h1 {
+    
+            margin-top:0px;
+            font-size:41px;
+            text-decoration:overline;
+            text-decoration-color: brown;
+        
+        }
+        
+        .container-2 h3{
+        color: rgb(255, 255, 255);
+        text-transform: uppercase;
+        font-size: 20px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    
+        
+        }
+    
+        .container-2 img{
+    
+            display: none;
+         }
+    
+       }
+
+
+           /* ------------------- THIRD MEDIA QUERY  ------------------------*/
+
+    @media only screen and (min-width: 801px) and (max-width:1000px) {
+
+        .container-1{
+            top:20px;
+        }
+    
+        .container-2{
+         
+            top:580px;
+        }
+    
+        .container-2 h1 {
+    
+            margin-top:0px;
+            font-size:71px;
+            text-decoration:overline;
+            text-decoration-color: brown;
+        
+        }
+        
+        .container-2 h3{
+        
+        font-size: 40px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    
+        
+        }
+    
+        .container-2 img{
+    
+            display: none;
+         }
+    
+       }
+
+        /* ------------------- FOURTH MEDIA QUERY  ------------------------*/
+
+    @media only screen and (min-width: 1001px) and (max-width:1200px) {
+
+        .container-1{
+            top:10px;
+        }
+    
+        .container-2{
+         
+            top:580px;
+        }
+    
+        .container-2 h1 {
+    
+            margin-top:0px;
+            font-size:71px;
+            text-decoration:overline;
+            text-decoration-color: brown;
+        
+        }
+        
+        .container-2 h3{
+        
+        font-size: 40px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    
+        
+        }
+    
+        .container-2 img{
+    
+            display: none;
+         }
+    
+       }
+
+
+       /* ------------------- FIFTH MEDIA QUERY  ------------------------*/
+
+    @media only screen and (min-width: 1201px) and (max-width:1400px){
+
+        .container-1{
+            top:-22px;
+        }
+    
+        .container-2{
+         
+            top:700px;
+        }
+    
+        .container-2 h1 {
+    
+            margin-top:0px;
+            font-size:71px;
+            text-decoration:overline;
+            text-decoration-color: brown;
+        
+        }
+        
+        .container-2 h3{
+        
+        font-size: 40px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    
+        
+        }
+    
+        .container-2 img{
+    
+            display: none;
+         }
+    
+       }
+
+              /* ------------------- SIXTH MEDIA QUERY  ------------------------*/
+
+
+       @media only screen and (min-width: 1401px) and (max-width:1600px){
+
+        .container-1{
+            top:-22px;
+        }
+    
+        .container-2{
+         
+            top:700px;
+        }
+    
+        .container-2 h1 {
+    
+            margin-top:0px;
+            font-size:71px;
+            text-decoration:overline;
+            text-decoration-color: brown;
+        
+        }
+        
+        .container-2 h3{
+        
+        font-size: 40px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    
+        
+        }
+    
+        .container-2 img{
+    
+            display: none;
+         }
+    
+       }
+
+             /* ------------------- SEVENTH MEDIA QUERY  ------------------------*/
+
+
+             @media only screen and (min-width: 1601px) and (max-width:1900px){
+
+                .container-1{
+                    top:-35px;
+                }
+            
+                .container-2{
+                 
+                    top:850px;
+                }
+            
+                .container-2 h1 {
+            
+                    margin-top:0px;
+                    font-size:71px;
+                    text-decoration:overline;
+                    text-decoration-color: brown;
+                
+                }
+                
+                .container-2 h3{
+                
+                font-size: 40px;
+                margin-top: 30px;
+                margin-bottom: 30px;
+            
+                
+                }
+            
+                .container-2 img{
+            
+                    display: none;
+                 }
+            
+               }
+
+
+                            /* ------------------- EIGHTMEDIA QUERY  ------------------------*/
+
+
+               @media only screen and  (min-width:1901px){
+
+                .container-1{
+                    top:-45px;
+                }
+            
+                .container-2{
+                 
+                    width: 90%;
+                    top:870px;
+                }
+            
+                .container-2 h1 {
+            
+                    margin-top:0px;
+                    font-size:91px;
+                    text-decoration:overline;
+                    text-decoration-color: brown;
+                
+                }
+                
+                .container-2 h3{
+                
+                font-size: 60px;
+                margin-top: 100px;
+                margin-bottom: 100px;
+            
+                
+                }
+
+                .container-2 p{
+                    font-size: 40px;
+                }
+            
+                .container-2 img{
+            
+                    display: none;
+                 }
+            
+               }
