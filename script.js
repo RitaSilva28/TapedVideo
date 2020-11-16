@@ -12,5 +12,3 @@ function removeClassActive() {
 
 
 };
-
-comsole.log(videos);
