@@ -74,6 +74,20 @@ background-color: brown;
     font-size: 25px;
 }
 
+#video-container{
+
+    margin-top:50px;
+    display: flex;
+    justify-content: center;    
+    width: 90%;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.video-box{
+    margin:10px;
+}
 
 footer{
 
