@@ -234,7 +234,7 @@ h1:hover {
         .titulo p:first-child {
        
             font-size: 92px;
-            position: fixed;
+            position: absolute;
             top:180px;
             right:230px;
             left:0;
@@ -250,7 +250,7 @@ h1:hover {
         .titulo p:last-child {
            
             font-size: 92px;
-            position: fixed;
+            position: absolute;
             top:180px;
             left:230px;
             right:0;
@@ -294,7 +294,7 @@ h1:hover {
         .titulo p:first-child {
        
             font-size: 150px;
-            position: fixed;
+            position: absolute;
             top:0px;
             right:0px;
             left:-700px;
@@ -310,7 +310,7 @@ h1:hover {
         .titulo p:last-child {
            
             font-size: 150px;
-            position: fixed;
+            position: absolute;
             top:0px;
             left:0;
             right:-700px;
