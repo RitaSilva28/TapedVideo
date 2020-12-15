@@ -6,9 +6,6 @@ about.addEventListener("click", function () {
 });
 
 function removeClassActive() {
-
   buttonHome.classList.remove("active");
   about.classList.add("active");
-
-
-};
+}

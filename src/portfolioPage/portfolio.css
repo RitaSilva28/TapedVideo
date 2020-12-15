@@ -1,51 +1,45 @@
-body{
-    background-color: black;
-    text-align: center;
-    font-family: 'Oswald', sans-serif;
-    color:white;
-    margin:0;
-    padding:0;
-   
-
-
+body {
+  background-color: black;
+  text-align: center;
+  font-family: "Oswald", sans-serif;
+  color: white;
+  margin: 0;
+  padding: 0;
 }
 
-h3{
-    color:black;
-    font-size: 40px;
+h3 {
+  color: black;
+  font-size: 40px;
 }
 
-.copyright{
-    position: relative;
-    top: 20px;
-    margin:0;
-    padding:0;
+.copyright {
+  position: relative;
+  top: 20px;
+  margin: 0;
+  padding: 0;
 }
 
-.fab{
-    margin:0 20px;
-    color: #A5292A;
+.fab {
+  margin: 0 20px;
+  color: #a5292a;
 }
-.social-icons{
-    position: relative;
-    top:25px;
-  
-}
-
-
-
-.navbar-button{
-    color: #A5292A;
-}
-.nav-link{
-    font-size: 25px;
-     margin: 0 20px;
-     color: #A5292A;
-     text-transform: uppercase;
+.social-icons {
+  position: relative;
+  top: 25px;
 }
 
-.nav-link:hover{
-    text-decoration: underline;
+.navbar-button {
+  color: #a5292a;
+}
+.nav-link {
+  font-size: 25px;
+  margin: 0 20px;
+  color: #a5292a;
+  text-transform: uppercase;
+}
+
+.nav-link:hover {
+  text-decoration: underline;
 }
 
 /* .about:active{
@@ -53,436 +47,339 @@ h3{
 
 } */
 
-.active{
-    text-decoration: underline;
+.active {
+  text-decoration: underline;
 }
 
-
-.tapedlogo{
-    width: 70px;
+.tapedlogo {
+  width: 70px;
 }
 
-.search-button{
-background-color: brown;
-    color:white;
-    font-size: 25px;
+.search-button {
+  background-color: brown;
+  color: white;
+  font-size: 25px;
 }
 
-.form-control{
-    font-size: 25px;
+.form-control {
+  font-size: 25px;
 }
 
-#video-container{
-
-    margin-top:50px;
-    display: flex;
-    justify-content: left;    
-    width: 78%;
-    flex-wrap: wrap;
-    margin-left:auto;
-    margin-right: auto;
-    padding: 0;
-   
+#video-container {
+  margin-top: 50px;
+  display: flex;
+  justify-content: left;
+  width: 78%;
+  flex-wrap: wrap;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0;
 }
 
-.video-box{
-    margin-left:10px;
+.video-box {
+  margin-left: 10px;
 }
 
-footer{
-
-    height: 150px ;
-    background-color: #F8F9FA;
-    position: relative;
-    top:1000px;
-  
-
+footer {
+  height: 150px;
+  background-color: #f8f9fa;
+  position: relative;
+  top: 1000px;
 }
-
 
 @keyframes fadedAnimation {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
 
-    0% {opacity: 0;}
-    100% { opacity:1; }
+.animation-faded {
+  animation-name: fadedAnimation;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+  animation-delay: 0.7s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fadedAnimation2 {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.animation-faded2 {
+  animation-name: fadedAnimation2;
+  animation-duration: 2.5s;
+  animation-iteration-count: 1;
+  animation-delay: 0;
+  animation-fill-mode: forwards;
+}
+
+/* -------------------FOURTH MEDIA QUERY  ------------------------*/
+
+@media only screen and (max-width: 1675px) {
+  #video-container {
+    margin-top: 50px;
+    display: flex;
+    justify-content: left;
+    width: 90%;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
   }
 
-  .animation-faded {
-      animation-name: fadedAnimation;
-      animation-duration:  2s; 
-      animation-iteration-count: 1;
-      animation-delay: 0.7s;
-      animation-fill-mode: forwards;
-   
+  .video-box {
+    margin-left: 40px;
+  }
+}
+
+/* -------------------FOURTH MEDIA QUERY  ------------------------*/
+
+@media only screen and (max-width: 1553px) {
+  #video-container {
+    margin-top: 50px;
+    display: flex;
+    justify-content: left;
+    width: 95%;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
   }
 
+  .video-box {
+    margin-left: 48px;
+  }
+}
 
-
-  @keyframes fadedAnimation2 {
-
-    0% {opacity: 0;}
-    100% { opacity:1; }
+@media only screen and (max-width: 1496px) {
+  #video-container {
+    margin-top: 50px;
+    display: flex;
+    justify-content: left;
+    width: 100%;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
   }
 
-  .animation-faded2 {
-      animation-name: fadedAnimation2;
-      animation-duration:  2.5s; 
-      animation-iteration-count: 1;
-      animation-delay: 0;
-      animation-fill-mode: forwards;
-   
+  .video-box {
+    margin-left: 53px;
+  }
+}
+
+@media only screen and (max-width: 1436px) {
+  #video-container {
+    margin-top: 50px;
+    display: flex;
+    justify-content: left;
+    width: 100%;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
   }
 
-
-
-      /* -------------------FOURTH MEDIA QUERY  ------------------------*/
-
-
-      @media only screen and (max-width: 1675px) {
-
-        #video-container{
-
-            margin-top:50px;
-            display: flex;
-            justify-content: left;    
-            width: 90%;
-            flex-wrap: wrap;
-            margin-left:auto;
-            margin-right: auto;
-            padding: 0;
-           
-        }
-        
-        .video-box{
-            margin-left:40px;
-        }
-
-      }
-
-
-
-      /* -------------------FOURTH MEDIA QUERY  ------------------------*/
-
-
-      @media only screen and (max-width: 1553px) {
-
-        #video-container{
-
-            margin-top:50px;
-            display: flex;
-            justify-content: left;    
-            width: 95%;
-            flex-wrap: wrap;
-            margin-left:auto;
-            margin-right: auto;
-            padding: 0;
-           
-        }
-        
-        .video-box{
-            margin-left:48px;
-        }
-
-    }
-
-
-
-    @media only screen and (max-width: 1496px) {
-
-        #video-container{
-
-            margin-top:50px;
-            display: flex;
-            justify-content: left;    
-            width: 100%;
-            flex-wrap: wrap;
-            margin-left:auto;
-            margin-right: auto;
-            padding: 0;
-           
-        }
-        
-        .video-box{
-            margin-left:53px;
-        }
-
-    }
-
-
-
-    @media only screen and (max-width: 1436px) {
-
-        #video-container{
-
-            margin-top:50px;
-            display: flex;
-            justify-content: left;    
-            width: 100%;
-            flex-wrap: wrap;
-            margin-left:auto;
-            margin-right: auto;
-            padding: 0;
-           
-        }
-        
-        .video-box{
-            margin-left:40px;
-        }
-
-    }
-
-    
-
-    @media only screen and (max-width: 1397px) {
-
-        #video-container{
-
-            margin-top:50px;
-            display: flex;
-            justify-content: left;    
-            width: 100%;
-            flex-wrap: wrap;
-            margin-left:auto;
-            margin-right: auto;
-            padding: 0;
-           
-        }
-        
-        .video-box{
-            margin-left:26px;
-        }
-
-    }
-
-
-
-    @media only screen and (max-width: 1355px) {
-
-        #video-container{
-
-            margin-top:50px;
-            display: flex;
-            justify-content: left;    
-            width: 75%;
-            flex-wrap: wrap;
-            margin-left:auto;
-            margin-right: auto;
-            padding: 0;
-           
-        }
-        
-        .video-box{
-            margin-left:60px;
-        }
-
-    }
-
-
-
-
-    @media only screen and (max-width: 1295px) {
-
-        #video-container{
-
-            margin-top:50px;
-            display: flex;
-            justify-content: left;    
-            width: 80%;
-            flex-wrap: wrap;
-            margin-left:auto;
-            margin-right: auto;
-            padding: 0;
-           
-        }
-        
-        .video-box{
-            margin-left:45px;
-        }
-
-    }
-
-
-
-    @media only screen and (max-width: 1263px) {
-
-        #video-container{
-
-            margin-top:50px;
-            display: flex;
-            justify-content: left;    
-            width: 80%;
-            flex-wrap: wrap;
-            margin-left:auto;
-            margin-right: auto;
-            padding: 0;
-           
-        }
-        
-        .video-box{
-            margin-left:48px;
-        }
-
-    }
-
-
-
-    @media only screen and (max-width: 1184px) {
-
-        #video-container{
-
-            margin-top:50px;
-            display: flex;
-            justify-content: left;    
-            width: 87%;
-            flex-wrap: wrap;
-            margin-left:auto;
-            margin-right: auto;
-            padding: 0;
-           
-        }
-        
-        .video-box{
-            margin-left:55px;
-        }
-
-    }
-
-
-
-    @media only screen and (max-width: 1105px) {
-
-        #video-container{
-
-            margin-top:50px;
-            display: flex;
-            justify-content: left;    
-            width: 90%;
-            flex-wrap: wrap;
-            margin-left:auto;
-            margin-right: auto;
-            padding: 0;
-           
-        }
-        
-        .video-box{
-            margin-left:47px;
-        }
-
-    }
-
-
-
-
-    @media only screen and (max-width: 1051px) {
-
-        #video-container{
-
-            margin-top:50px;
-            display: flex;
-            justify-content: left;    
-            width: 90%;
-            flex-wrap: wrap;
-            margin-left:auto;
-            margin-right: auto;
-            padding: 0;
-           
-        }
-        
-        .video-box{
-            margin-left:30px;
-        }
-
-    }
-
-
-    @media only screen and (max-width: 1013px) {
-
-        #video-container{
-
-            margin-top:50px;
-            display: flex;
-            justify-content: left;    
-            width: 95%;
-            flex-wrap: wrap;
-            margin-left:auto;
-            margin-right: auto;
-            padding: 0;
-           
-        }
-        
-        .video-box{
-            margin-left:35px;
-        }
-
-    }
-
-
-    @media only screen and (max-width: 970px) {
-
-        #video-container{
-
-            margin-top:50px;
-            display: flex;
-            justify-content: left;    
-            width: 100%;
-            flex-wrap: wrap;
-            margin-left:auto;
-            margin-right: auto;
-            padding: 0;
-           
-        }
-        
-        .video-box{
-            margin-left:37px;
-        }
-
-    }
-
-
-    @media only screen and (max-width: 925px) {
-
-        #video-container{
-
-            margin-top:50px;
-            display: flex;
-            justify-content: left;    
-            width: 100%;
-            flex-wrap: wrap;
-            margin-left:auto;
-            margin-right: auto;
-            padding: 0;
-           
-        }
-        
-        .video-box{
-            margin-left:25px;
-        }
-
-    }
-
-
-    @media only screen and (max-width: 901px) {
-
-        body{
-            font-family: 'Oswald', sans-serif;
-
-        }
-
-        #video-container{
-
-            margin-top:50px;
-            display: flex;
-            justify-content: center;    
-            width: 100%;
-            flex-wrap: wrap;
-            margin-left:auto;
-            margin-right: auto;
-            padding: 0;
-           
-        }
-        
-        .video-box{
-            margin-left:30px;
-        }
-
-    }
-
+  .video-box {
+    margin-left: 40px;
+  }
+}
+
+@media only screen and (max-width: 1397px) {
+  #video-container {
+    margin-top: 50px;
+    display: flex;
+    justify-content: left;
+    width: 100%;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+  }
+
+  .video-box {
+    margin-left: 26px;
+  }
+}
+
+@media only screen and (max-width: 1355px) {
+  #video-container {
+    margin-top: 50px;
+    display: flex;
+    justify-content: left;
+    width: 75%;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+  }
+
+  .video-box {
+    margin-left: 60px;
+  }
+}
+
+@media only screen and (max-width: 1295px) {
+  #video-container {
+    margin-top: 50px;
+    display: flex;
+    justify-content: left;
+    width: 80%;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+  }
+
+  .video-box {
+    margin-left: 45px;
+  }
+}
+
+@media only screen and (max-width: 1263px) {
+  #video-container {
+    margin-top: 50px;
+    display: flex;
+    justify-content: left;
+    width: 80%;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+  }
+
+  .video-box {
+    margin-left: 48px;
+  }
+}
+
+@media only screen and (max-width: 1184px) {
+  #video-container {
+    margin-top: 50px;
+    display: flex;
+    justify-content: left;
+    width: 87%;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+  }
+
+  .video-box {
+    margin-left: 55px;
+  }
+}
+
+@media only screen and (max-width: 1105px) {
+  #video-container {
+    margin-top: 50px;
+    display: flex;
+    justify-content: left;
+    width: 90%;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+  }
+
+  .video-box {
+    margin-left: 47px;
+  }
+}
+
+@media only screen and (max-width: 1051px) {
+  #video-container {
+    margin-top: 50px;
+    display: flex;
+    justify-content: left;
+    width: 90%;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+  }
+
+  .video-box {
+    margin-left: 30px;
+  }
+}
+
+@media only screen and (max-width: 1013px) {
+  #video-container {
+    margin-top: 50px;
+    display: flex;
+    justify-content: left;
+    width: 95%;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+  }
+
+  .video-box {
+    margin-left: 35px;
+  }
+}
+
+@media only screen and (max-width: 970px) {
+  #video-container {
+    margin-top: 50px;
+    display: flex;
+    justify-content: left;
+    width: 100%;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+  }
+
+  .video-box {
+    margin-left: 37px;
+  }
+}
+
+@media only screen and (max-width: 925px) {
+  #video-container {
+    margin-top: 50px;
+    display: flex;
+    justify-content: left;
+    width: 100%;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+  }
+
+  .video-box {
+    margin-left: 25px;
+  }
+}
+
+@media only screen and (max-width: 901px) {
+  body {
+    font-family: "Oswald", sans-serif;
+  }
+
+  #video-container {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+  }
+
+  .video-box {
+    margin-left: 30px;
+  }
+}

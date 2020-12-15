@@ -1,0 +1,28 @@
+{
+  "name": "taped-site",
+  "version": "1.0.0",
+  "description": "taped website",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prettier": "prettier --write ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RitaSilva28/TapedVideo.git"
+  },
+  "keywords": [
+    "\"taped\"",
+    "\"website\"",
+    "\"portfolio\""
+  ],
+  "author": "Rita Silva",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RitaSilva28/TapedVideo/issues"
+  },
+  "homepage": "https://github.com/RitaSilva28/TapedVideo#readme",
+  "devDependencies": {
+    "prettier": "^2.2.1"
+  }
+}
