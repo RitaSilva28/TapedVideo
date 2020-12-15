@@ -285,7 +285,8 @@ footer{
     
         .container-2{
          
-            top:500px;
+            position: absolute;
+            top:550px;
         }
     
         .container-2 h1 {
