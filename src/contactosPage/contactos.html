@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contactos - Taped Video</title>
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="../contactosPage/contactos.css" />
+  </head>
+
+  <body>
+    <div id="first-nav">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="../tapedPage/taped.html"
+          ><img src="../images/tapedlogo.png" class="tapedlogo" alt=""
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li id="button-home" class="nav-item">
+              <a
+                class="nav-link"
+                href="../tapedPage/taped.html"
+                id="#homeButton"
+                >Home <span class="sr-only">(current)</span></a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../tapedPage/taped.html#about"
+                >Quem Somos</a
+              >
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link"
+                href="../portfolioPage/portfolio.html"
+                id="navbarDropdown"
+                role="button"
+              >
+                Portefólio
+              </a>
+            </li>
+
+            <li class="nav-item active">
+              <a
+                class="nav-link"
+                href="../contactosPage/contactos.html"
+                tabindex="-1"
+                >Contactos</a
+              >
+            </li>
+            <!-- <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Dropdown
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </div>
+            </li> -->
+          </ul>
+        </div>
+      </nav>
+    </div>
+
+    <div class="container">
+      <div style="text-align: center">
+        <h2>Entre em contato connosco</h2>
+      </div>
+      <div class="column">
+        <form action="/action_page.php">
+          <label for="fname">Nome</label>
+          <input
+            type="text"
+            id="fname"
+            name="firstname"
+            placeholder="O seu nome..."
+          />
+          <label for="lname">Apelido</label>
+          <input
+            type="text"
+            id="lname"
+            name="lastname"
+            placeholder="O seu apelido..."
+          />
+          <label for="country">Distrito</label>
+          <select id="country" name="country">
+            <option value="australia">Aveiro</option>
+            <option value="canada">Beja</option>
+            <option value="usa">Braga</option>
+            <option value="australia">Brangança</option>
+            <option value="canada">Castelo Branco</option>
+            <option value="usa">Coimbra</option>
+            <option value="australia">Évora</option>
+            <option value="canada">Faro</option>
+            <option value="usa">Guarda</option>
+            <option value="australia">Leiria</option>
+            <option value="canada">Lisboa</option>
+            <option value="usa">Portalegre</option>
+            <option value="australia">Porto</option>
+            <option value="canada">Santarém</option>
+            <option value="usa">Setúbal</option>
+            <option value="australia">Viana do Castelo</option>
+            <option value="canada">Vila Real</option>
+            <option value="usa">Viseu</option>
+            <option value="australia">Açores</option>
+            <option value="canada">Madeira</option>
+          </select>
+          <label for="subject">Assunto</label>
+          <textarea
+            id="subject"
+            name="subject"
+            placeholder="Escreva-nos algo...."
+            style="height: 170px"
+          ></textarea>
+          <input value="Enviar" type="submit" />
+        </form>
+      </div>
+    </div>
+
+    <footer>
+      <div class="copyright">
+        <h3>TAPED VIDEO © COPYRIGHT</h3>
+      </div>
+
+      <div class="social-icons">
+        <a
+          href="https://vimeo.com/tapedvideo?fbclid=IwAR0Q_tbgGyqEvB3So-h_BFJDInSBqy7Qe-oc28KimwVB4FeiUONnGcfCzBg"
+          target="_blank"
+        >
+          <i class="fab fa-vimeo-v fa-3x"></i
+        ></a>
+        <a href="https://www.instagram.com/tapedvideo/" target="_blank"
+          ><i class="fab fa-instagram fa-3x"></i
+        ></a>
+        <a href="https://www.facebook.com/tapedvideo" target="_blank"
+          ><i class="fab fa-facebook-f fa-3x"></i
+        ></a>
+        <a
+          href="https://youtube.com/channel/UC11rG9iMQ5T5Yeawm7YvNbw/"
+          target="_blank"
+          ><i class="fab fa-youtube fa-3x"></i
+        ></a>
+      </div>
+    </footer>
+
+    <script src="/js/script.js"></script>
+
+    <script
+      src="https://kit.fontawesome.com/8d9f176b71.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
